@@ -1,6 +1,4 @@
-html,
-body,
-#root {
+html, body, #root {
   font: 0.9rem sans-serif;
   background: #0a1f44;
   color: #1e2432;
@@ -9,7 +7,7 @@ body,
 }
 
 .main-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418)), url('https://i.ibb.co/R9hwSbx/bg.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://i.ibb.co/R9hwSbx/bg.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -86,10 +84,10 @@ p {
 
 @media only screen and (max-width: 600px) {
   .search {
-    padding: 20px 15%;
+      padding: 20px 15%;
   }
 
   .city {
-    padding: 40px 20%;
+      padding: 40px 20%;
   }
 }

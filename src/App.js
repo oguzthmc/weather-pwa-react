@@ -18,11 +18,11 @@ const App = () => {
     }
 
     return (
-        <div className="name-container">
+        <div className="main-container">
             <input
                 type="text"
                 className="search"
-                placeholder="Search..."
+                placeholder="Search for a place name..."
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyPress={search}
